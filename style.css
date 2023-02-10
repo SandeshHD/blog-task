@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.colored{
+    color:#712cf9;
+    font-weight: 500;
+}
+
+.hero{
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.tagline{
+    color:rgb(80, 80, 80);
+}
+
+.subscribe-form{
+    width:60%;
+    margin:30px auto;
+}
+
+.btn-colored{
+    background-color: #712cf9;
+    color:white;
+    margin-left:20px;
+    border:none;
+    padding: 5px 20px;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: #712cf9 !important;
+}
