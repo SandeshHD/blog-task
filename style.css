@@ -41,3 +41,44 @@ body{
     box-shadow: none !important;
     border-color: #712cf9 !important;
 }
+
+.card{
+    padding:0 !important;
+    border:none !important;
+}
+
+.badge{
+    border-radius: 0px !important;
+    background-color: #712cf9;
+}
+
+.time{
+    display: inline-flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    align-items: center;
+    margin-left:10px;
+    color:#727272;
+}
+
+.circle{
+    display: inline-block;
+    height: 5px;
+    margin-right:3px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #727272;
+}
+
+.sub-text{
+    color:#676767;
+}
+
+.img-fluid{
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.side-card{
+    padding-top:0px !important;
+}
